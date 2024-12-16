@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Tüm sayfa boyutunda */
+    animation: background-flashing 5s infinite;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes background-flashing {
+    0%   { background-color: red; }
+    25%  { background-color: yellow; }
+    50%  { background-color: blue; }
+    75%  { background-color: green; }
+    100% { background-color: red; }
+  }
+  
+  p {
+    font-size: 24px;
+    color: white;
+  }
+  
+
+
+  

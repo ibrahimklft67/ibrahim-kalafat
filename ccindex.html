@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+   *{
+    margin: 0;
+   
+    
+   }
+   body{
+    background-color: rgb(217, 255, 0);
+   }
+    .esra{
+      text-align: center;
+      color: rgb(179, 61, 81);
+      font-weight: bolder;
+      
+      
+      font-size: xx-large;
+ font-family: "Rubik Wet Paint", system-ui;
+    }
+    ul{
+      list-style-type: none;
+        background-color: rgb(162, 0, 255);
+       width: 100%;
+ box-shadow: 10px 10px 20px ;
+       cursor: pointer;
+    }
+
+    ul li a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+    }
+    ul li{
+      padding: 15px;
+      width: 100px;
+      background-color: rgb(163, 12, 250);
+      margin-left: -30px;
+display: inline-block;
+margin-right: 15px;
+    }
+
+    ul li:hover{
+background-color: red;
+transition: 0.5s;
+      
+    }
+ 
+    #new-content{
+
+      display: none;
+z-index: 1;
+position: absolute;
+margin-top: 15px;
+margin-left: -15px;
+width: 100px;
+    }
+    .news-li:hover #new-content{
+      display: block;
+    }
+    
+
+    #news2-content{
+      position: absolute;
+      z-index: 1;
+      margin-left: 115px;
+      margin-top: -33px;
+      width: 100px;
+      display: none;
+    }
+
+    .news2-li:hover #news2-content{
+  display: block;
+    }
+  </style>
+</head>
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Sevillana&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <h1 class="esra">Esra Foto</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li class="news-li"><a href="#">News</a>
+      <div id="new-content">
+        <ul>
+          <li style="display: block;"><a href="#"></a>News 1</li>
+          <li class="news2-li" style="display: block;"><a href="#"></a>News 2
+          
+            <div id="news2-content">
+              <ul>
+                <li><a href="#">Detail 1</a></li>
+                <li><a href="#">Detail 2</a></li>
+                <li><a href="#">Detail 3</a></li>
+                <li><a href="#">Detail 4</a></li>
+              </ul>
+            </div>
+          </li>
+          <li style="display: block;"><a href="#"></a>News 3</li>
+          <li style="display: block;"><a href="#"></a>News 4</li>
+        </ul>
+    
+      </div>
+      </li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+<img src="canon-eos-90d-18-135-mm-lens-dijital-slr-fotograf-makinesi-z.avif" width="200px" height="200px" style="margin-top: 25px;" alt="fotograf makinasi">
+</body>
+</html>
